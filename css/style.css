@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@100;300&display=swap');
+h1, h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    
+}
+a , li {
+    height: 20px;
+    border-radius: 100px;
+    transition: all 0.1s ease-out 10ms
+  }
+
+  .navbar {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-right: 8px;
+  }
+  header {
+  position : -webkit-sticky;
+  position : -ms-sticky;
+  position : sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  border-radius: 100px;
+}
+  #navtitle {
+      color: white;
+  }
+
+  .logo {
+      cursor: pointer;
+  }
+
+  .nav-links {
+    list-style: none;  
+  }
+
+  .nav-links li {
+      display: inline-block;
+      padding: 0px 20px;
+  }
+
+  button{
+      background-color: #000000;
+      font-family: 'Quicksand';
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  button:hover{
+      background-color: #00a558;
+      color: #d4d4d4;
+  }	
+
+  .nav-links, a {
+      text-decoration: none;
+      color: #ffffff;
+      transition: 0.3s;
+      
+  }
+
+  .nav-links, li:hover ,a:hover {
+    color: #00ccff;
+  }
