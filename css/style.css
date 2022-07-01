@@ -85,7 +85,7 @@ a , li {
       
   }
 
-  .nav-links, li:hover ,a:hover {
+  .nav-links, a:hover {
     color: #00ccff;
   }
   .card{
@@ -109,14 +109,15 @@ a , li {
   height: auto;
   border-radius: 5px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, minmax(150px, auto));
   padding: 10px;
   box-shadow: none  10px 10px #ffffff;	
 }
 @media only screen and (max-width: 895px) {
 .container {
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, minmax(150px, 1fr));
+  grid-template-rows: repeat(4, minmax(150px, 1fr));
 }
 }
 
